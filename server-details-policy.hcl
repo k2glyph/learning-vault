@@ -1,10 +1,6 @@
 path "secret/servers/*" {
-    capabilities = ["read", "list"]
+    capabilities = ["read", "list", "create", "update"]
 }
-path "secret/servers" {
-    capabilities = ["list"]
-}
-
-path "secret/*" {
-    capabilities = ["list"]
+path "secret/metadata/*" {
+   capabilities = ["list"]
 }
