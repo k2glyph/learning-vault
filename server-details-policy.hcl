@@ -1,3 +1,3 @@
 path "secret/servers/*" {
-    capabilities = ["read", "list"]
+    capabilities = ["create","read", "list"]
 }
