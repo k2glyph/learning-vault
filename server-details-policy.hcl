@@ -1,3 +1,3 @@
-patch "secret/servers/*" {
+path "secret/servers/*" {
     capabilities = ["read", "list"]
 }
