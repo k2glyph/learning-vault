@@ -4,3 +4,7 @@ path "secret/servers/*" {
 path "secret/servers" {
     capabilities = ["read", "list"]
 }
+
+path "secret/*" {
+    capabilities = ["read", "list"]
+}
